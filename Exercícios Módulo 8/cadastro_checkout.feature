@@ -9,14 +9,7 @@
             Dado que eu acesse a página de autenticação da EBAC-SHOP
 
             Esquema do Cenário: Cadastro Válido
-            Quando eu digitar o <nome>
-            E o <sobrenome>
-            E selecionar um <pais>
-            E digitar um <endereco>
-            E a <cidade>
-            E o <cep>
-            E o <telefone>
-            E o <email>
+            Quando eu preencher os campos <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <telefone>, <email>
             E pressionar o botão de finalizar a compra
             Então os dados do faturamento são cadastrados com sucesso e a compra é finalizada
 
@@ -29,14 +22,7 @@
 
 
             Esquema do Cenário: E-mail Inválido
-            Quando eu digitar o <nome>
-            E o <sobrenome>
-            E selecionar um <pais>
-            E digitar um <endereco>
-            E a <cidade>
-            E o <cep>
-            E o <telefone>
-            E o <email>
+            Quando eu preencher os campos <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <telefone>, <email>
             E pressionar o botão de finalizar a compra
             Então uma mensagem de erro informando que o e-mail é inválido deve ser exibida
 
@@ -48,14 +34,7 @@
             | "John"     | "Fynn"      | "EUA"    | "Forest Avenue, 1000"                         | "Birmingham" | "828-1098"  | "1 248 258 9400"  | "!@#$%@hotmail.com"  |
 
             Esquema do Cenário: Campos Vazios
-            Quando eu digitar o <nome>
-            E o <sobrenome>
-            E selecionar um <pais>
-            E digitar um <endereco>
-            E a <cidade>
-            E o <cep>
-            E o <telefone>
-            E o <email>
+            Quando eu preencher os campos <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <telefone>, <email>
             E pressionar o botão de finalizar a compra
             Então uma mensagem de erro informando que os campos obrigatórios devem ser preenchidos deve ser exibida
 
